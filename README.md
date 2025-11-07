@@ -7,33 +7,65 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# React + Vite Admin Panel
+# 🛍 React + Vite E-Commerce Website + Admin Panel
 
-This project is a simple admin panel built using **React** and **Vite**.  
-It includes a basic login system with predefined admin credentials.
-
----
-
-## 🚀 Features
-- Fast development with **Vite**
-- **React Router** for navigation
-- Basic **Admin Login**
-- Protected Admin Dashboard (only accessible after login)
+This project is an **E-Commerce Website** built using **React + Vite**, with a full **Admin Panel** to manage:
+- Products
+- Categories
+- Customer Orders
+- Admin Authentication
 
 ---
 
-## 🔧 Tech Stack
-| Tool | Purpose |
-|------|---------|
-| React | UI Framework |
-| Vite | Development + Bundling |
-| React Router | Page Routing |
-| CSS / Tailwind / Custom Styles | Styling (depends on your setup) |
+## ✨ Features
+
+### 👨‍💼 Admin Panel
+- Secure Login using admin credentials
+- Add / Edit / Delete **Products**
+- Add / Edit / Delete **Categories**
+- View and manage **Orders**
+- Dashboard overview
+
+### 🛍 Storefront (User Side)
+- Browse all products
+- Filter products by category
+- Product detail page
+- Add to cart
+  Place order
 
 ---
 
-## 📂 Project Setup
+## 🔐 Admin Login Credentials
 
-### 1️⃣ Install Dependencies
+| Email | Password |
+|------|----------|
+| **jatin@gmail.com** | **mehra** |
+
+> ⚠️ *Change these before deploying to production.*
+
+---
+
+## 🧱 Tech Stack
+
+| Package / Tool | Usage |
+|----------------|-------|
+| React | UI components |
+| Vite | Fast bundler & dev server |
+| React Router | Routing between pages |
+| LocalStorage / API | Persistent data storage |
+| CSS / Tailwind | UI Styling |
+
+---
+
+## 📦 Installation
+
 ```bash
+# Clone
+git clone <repo_link>
+cd project-folder
+
+# Install dependencies
 npm install
+
+# Start dev server
+npm run dev
