@@ -15,16 +15,16 @@ import Swal from 'sweetalert2';
 
 const swiper = [
   {
-    img: 'https://portotheme.com/html/molla/assets/images/demos/demo-2/slider/slide-1.jpg'
+    img: 'https://woodmart.xtemos.com/pottery/wp-content/uploads/sites/16/2023/07/w-hmp-slide-3-opt-1536x555.jpg'
   },
   {
-    img: 'https://portotheme.com/html/molla/assets/images/demos/demo-2/slider/slide-2.jpg'
+    img: 'https://woodmart.xtemos.com/pottery/wp-content/uploads/sites/16/2023/07/w-hmp-slide-3-opt.jpg'
   },
   {
-    img: 'https://portotheme.com/html/molla/assets/images/demos/demo-2/slider/slide-3.jpg'
+    img: 'https://woodmart.xtemos.com/kids/wp-content/uploads/sites/13/2023/05/w-bcs-slide-1.jpg.webp'
   },
   {
-    img: 'https://portotheme.com/html/molla/assets/images/demos/demo-2/slider/slide-1.jpg'
+    img: 'https://woodmart.xtemos.com/wp-content/uploads/2018/08/slide-1.jpg.webp'
   },
 ]
 
